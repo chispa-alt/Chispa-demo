@@ -1,1 +1,40 @@
-body { font-family: Arial; background-color: #2b0036; color: white; text-align: center; margin-top: 50px; }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #2e003e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #ffccff;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+  color: #e0b3ff;
+}
+
+button {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #ff0066, #ffccff);
+  border: none;
+  border-radius: 20px;
+  color: #2e003e;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
